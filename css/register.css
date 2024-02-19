@@ -1,0 +1,53 @@
+.header{
+    margin-bottom: 100px;
+}
+.form{
+    text-align: center;
+}
+.form>div{
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+    border:2px solid gray;
+}
+.form>div>h2{
+    margin: 0;
+    background-color: rgb(0, 136, 255);
+    margin-bottom: 10px;
+    font-size: 18px;
+    color:white;
+    font-weight: 300;
+    height: 30px;
+}
+.info{
+    text-align-last: left;
+}
+.info>label{
+    margin-left: 20px;
+    display: block;
+}
+.info>input{
+    display: block;
+    margin:10px 0px 10px 30px;
+    width: 275px;
+}
+.combobox{
+    display:inline-block !important;
+    width: 170px;
+}
+.info>select{
+    display: block;
+    margin: 10px 0px 10px 30px;
+    width: 80%;
+}
+.button{
+    text-align: right;
+}
+.button>button{
+    margin-right: 20px;
+}
+.button>button>a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+}
